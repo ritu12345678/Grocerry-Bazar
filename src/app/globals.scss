@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* .login-wrapper {
+  min-height: 100vh;
+} */
+
+.left-section {
+  padding: 6rem 3rem;
+}
+
+.text-orange {
+  color: #ff6600;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+.btn-orange {
+  background-color: #f26722 !important;
+  color: white;
+  border: 1px solid #f26722;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  font-weight: 600;
+  .btn:first-child:active {
+    background-color: #d55210;
+    border: 1px solid #d55210;
+    color: white !important;
+  }
+  &:hover {
+    background-color: #d55210;
+    border: 1px solid #d55210;
+    color: white !important;
+  }
+  &:active {
+    background-color: #d55210;
+    border: 1px solid #d55210;
+    color: white !important;
+  }
+  &:focus-visible {
+    background-color: #d55210;
+    border: 1px solid #d55210;
+    color: white !important;
+  }
+}

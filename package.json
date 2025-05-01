@@ -1,0 +1,26 @@
+{
+  "name": "grocerry-bazar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.2",
+    "@mui/material": "^7.0.2",
+    "bootstrap": "^5.3.5",
+    "formik": "^2.4.6",
+    "next": "15.3.1",
+    "primeicons": "^7.0.0",
+    "primereact": "^10.9.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sass": "^1.87.0",
+    "yup": "^1.6.1"
+  }
+}
