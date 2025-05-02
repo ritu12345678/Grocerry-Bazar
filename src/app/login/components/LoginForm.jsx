@@ -59,9 +59,9 @@ const router = useRouter()
       <div className="mt-5">
     
           <button
-            type="submit"
+            type="btn"
             className="btn btn-orange w-100 py-3"
-            onClick={()=>router.push("/dashboard")}
+            onClick={()=>router.push("/items")}
           >
             Login
           </button>

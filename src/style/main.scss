@@ -61,3 +61,17 @@
     object-fit: cover;
     object-position: center;
   }
+  .btn-yellow {
+    background: var(--Yellow, #d59615);
+    color: white;
+    border: 1px solid var(--Yellow, #d59615);
+    transition: 0.3s ease-in-out;
+    border-radius: 4px;
+    padding: 0.6rem 1.25rem;
+    font-weight: 600;
+    &:hover {
+      background-color: #eda20a;
+      border: 1px solid #eda20a;
+      color: white !important;
+    }
+  }
