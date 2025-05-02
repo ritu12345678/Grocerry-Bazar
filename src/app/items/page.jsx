@@ -18,7 +18,7 @@ function ProductList() {
           <button
             type="btn"
             className="btn btn-orange w-25 py-2"
-            onClick={()=>router.push("/add-items")}
+            onClick={()=>router.push("/items/add-items")}
           >
            Add Product
           </button>
