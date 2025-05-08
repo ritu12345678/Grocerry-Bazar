@@ -113,6 +113,16 @@ function MenuItems() {
             </ListItemIcon>
             <ListItemText primary="Products" sx={listItemTextStyle} />
           </ListItemButton>
+     
+        </Link>
+        <Link href="/daily-account" >
+    
+          <ListItemButton sx={isActive("/daily-account") ? activeStyles : {}}>
+            <ListItemIcon sx={listItemIconStyle}>
+              <HomeIcon />
+            </ListItemIcon>
+            <ListItemText primary="Daily Account" sx={listItemTextStyle} />
+          </ListItemButton>
         </Link>
       </List>
 
